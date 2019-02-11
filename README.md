@@ -1,3 +1,8 @@
+Why?
+You need a reverse proxy for ex. Microsoft Exchnage OWA, 
+ or a website.  So is this mabe some for you.
+ Useing LetsEncrypt SSL - Automatic renew via cron
+
 Get with
 `docker pull mpsoftdenmark/letsencrypt-reverse-proxy`
 
