@@ -17,7 +17,7 @@ RUN cp /docker/config/nginx.conf /etc/nginx/ && \
     cp /docker/config/proxy.conf /etc/nginx/conf.d/ && \
     cp /docker/config/ssl.conf /etc/nginx/conf.d/ && \
     cp /docker/config/ssl_redirect.conf /etc/nginx/conf.d/
-    
+
 RUN mkdir -p /var/www/letsencrypt
 
 RUN touch /var/log/cron.log
